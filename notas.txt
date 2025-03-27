@@ -1,0 +1,8 @@
+Tipos de imagenes: Lossy y Lossless (con perdida y sin perdida)
+tamaño promedio de una imagen: 70kb
+
+PAGINAS PARA IMAGENES
+Tiny png: Mejora el tamaño de las imagenes
+Verexif: Elimina los metadatos de las imagenes para disminuir su tamaño
+
+

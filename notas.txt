@@ -5,4 +5,6 @@ PAGINAS PARA IMAGENES
 Tiny png: Mejora el tamaño de las imagenes
 Verexif: Elimina los metadatos de las imagenes para disminuir su tamaño
 
-
+---------------------------------------------------------------------------
+tipos de inputs:
+tipos de autocomplete en HTML:

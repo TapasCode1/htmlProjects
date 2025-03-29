@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Clase donde aprenderemos a utilizar los formularios para fechas especificas.">
+    <title>Calendario</title>
+</head>
+<body>
+    <main>
+        <form action="">
+            <label for="hora">
+                <span>Hora</span>
+                <input type="time" id="hora" name="hora" autocomplete="name">
+            </label>
+            <label for="dia">
+                <span>Día</span>
+                <input type="date" id="dia" name="dia">
+            </label>
+            <label for="semana">
+                <span>Semana</span>
+                <input type="week" id="semana" name="semana"> <!--El atributo name en HTML identifica un dato de un formulario en un servidor o base de datos-->
+            </label>
+            <label for="mes">
+                <span>Mes</span>
+                <input type="month" id="mes" name="mes">
+            </label>
+            <input type="submit">
+        </form>
+        <!--Formulario 2-->
+        <form action="">
+            <label for="calendario">
+                <span>Calendario</span>
+                <input type="datetime-local" id="calendario" name="calendario">
+            </label>
+            <input type="submit">
+        </form>
+        <!--Formulario 3-->
+        <form action="">
+            <label for="alias">
+                <span>Alias: </span>
+                <input type="text" id="alias" name="alias" required>
+            </label>
+            <label for="correo">
+                <span>Correo</span>
+                <input type="email" id="correo" name="correo" autocomplete="email" required>
+            </label>
+            <label for="pais">
+                <span>País</span>
+                <input type="pais" id="pais" name="pais" autocomplete="country" required>
+            </label>
+            <input type="submit">
+        </form>
+    </main>
+</body>
+</html>

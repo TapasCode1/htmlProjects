@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="index, follow">
+        <meta name="description" content="Aprenderemos a utilizar la etiqueta select en formularios">
+        <title>Etiqueta Select</title>
+    </head>
+    <body>
+        <main>
+            <!--Select #1-->
+            <select name="documento" id=""> <!--el name es el nombre que le doy a mi seleccion-->
+                <option value="Ninguna">Ninguna</option>
+                <option value="Tarjeta de identidad">Tarjeta de identidad</option> <!--el value debe ser el mismo que las opciones-->
+                <option value="Cedulade de ciudadania">Cedula de ciudadania</option>
+                <option value="Cedula de Extranjeria">Cedula de extranjeria</option>
+                <option value="NIT">NIT</option>
+                <option value="Pasaporte">Pasaporte</option>
+            </select>
+            <input list="cursos">
+            <datalist id="cursos">
+                <option value="JavaScript"></option>
+                <option value="HTML5"></option>
+                <option value="CSS3"></option>
+                <option value="WEB STANDARDS"></option>
+                <option value="PYTHON"></option>
+                <option value="FIGMA"></option>
+            </datalist>
+        </main>
+        <br><br>
+        <footer>
+            <input type="submit"> <!--Ya esta predefinido para enviar la informacion suministrada, es ideal para formularios-->
+            <input type="submit" value="Seguir"> <!--Value permite personalizar el boton con un nombre-->
+            <button>Suscríbete</button> <!--Esta etiqueta permite botones mas personalizados y flexibles-->
+        </footer>
+    </body>
+</html>
